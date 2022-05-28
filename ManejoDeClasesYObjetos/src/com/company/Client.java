@@ -16,7 +16,7 @@ public class Client {
     /**
      * Represents the client address
      */
-    public String address;
+    protected String address;
     /**
      * Represents the client telephone
      */
@@ -38,7 +38,7 @@ public class Client {
 
     /**
      * Returns the client ID
-     * @return returns the client Id
+     * @return returns the client ID
      */
     public int getClientId() {
         return clientId;
@@ -46,7 +46,7 @@ public class Client {
 
     /**
      * Assigns the id client
-     * @param clientId
+     * @param clientId assigns client ID
      */
     public void setClientId(int clientId) {
         this.clientId = clientId;
@@ -54,7 +54,7 @@ public class Client {
 
     /**
      * Method to get the client name
-     * @return
+     * @return returns client name
      */
     public String getName() {
         return name;
@@ -72,7 +72,7 @@ public class Client {
      * Method to get the client address
      * @return returns the client address
      */
-    public String getAddress() {
+    protected String getAddress() {
         return address;
     }
 
@@ -80,7 +80,7 @@ public class Client {
      * Method to assign the client address
      * @param address assigns the client address
      */
-    public void setAddress(String address) {
+    protected void setAddress(String address) {
         this.address = address;
     }
 
@@ -89,7 +89,7 @@ public class Client {
      * returns the client telephone
      * @return returns the client telephone
      */
-    public int getTelephone() {
+    protected int getTelephone() {
         return telephone;
     }
 
@@ -97,7 +97,7 @@ public class Client {
      * Assigns the client telephone
      * @param telephone assigns the client telephone
      */
-    public void setTelephone(int telephone) {
+    protected void setTelephone(int telephone) {
         this.telephone = telephone;
     }
 }

@@ -121,4 +121,29 @@ public class Player {
     public void setLevel(int level) {
         this.level = level;
     }
+
+    /**
+     * Method calculates the new score
+     * @param newScore value to add at the score
+     */
+    public void calculateScore(float newScore){
+        score = score+newScore;
+        calculateLevel(score);
+    }
+
+    /**
+     * Method calculates the level
+     * @param score current score
+     */
+    private void calculateLevel(float score){
+        if(score >0 && score <= 100){
+            level = 1;
+        }else if(score>100 && score<=200){
+            level = 2;
+        }else if(score <=300){
+            level = 3;
+        }else{
+            level = 4;
+        }
+    }
 }

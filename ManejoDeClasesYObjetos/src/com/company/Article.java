@@ -73,9 +73,17 @@ public class Article {
 
     /**
      * Assigns the item´s stock
-     * @param stock
+     * @param stock Quantity of items available
      */
     public void setStock(int stock) {
         this.stock = stock;
+    }
+
+    /**
+     * Increments the stock
+     * @param purchase purchased amount
+     */
+    protected void addStock(int purchase){
+        stock = stock + purchase;
     }
 }
