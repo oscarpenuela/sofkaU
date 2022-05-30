@@ -8,3 +8,5 @@ Entrega de los talleres
 - ### Taller 1 Manejo de clases y objetos
 
 Se declaran clases con atributos y métodos: públicos, privados y protegidos
+
+- ### Taller 2 Abstracciones y Polimorfismo
