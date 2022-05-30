@@ -10,3 +10,5 @@ Entrega de los talleres
 Se declaran clases con atributos y métodos: públicos, privados y protegidos
 
 - ### Taller 2 Abstracciones y Polimorfismo
+
+Se crea una clase abstracta y una interfaz, se crea una clase principal para crear las naves
