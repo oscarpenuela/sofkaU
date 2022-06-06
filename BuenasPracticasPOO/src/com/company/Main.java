@@ -14,7 +14,7 @@ public class Main {
                     "Cancion " + i ,
                     i,
                     1970 + i,
-                    180,
+                    180 + 5*i,
                     "Clasica",
                     "../img/cover_"+i,
                     "Esta es la canción número "+i
@@ -25,8 +25,8 @@ public class Main {
             Song songL = new Song(
                     "Cancion " + i ,
                     i,
-                    1970 + i,
-                    180,
+                    1970 + i-10,
+                    180 + 4*i,
                     "Romantica",
                     "../img/cover_"+i,
                     "Esta es la canción número "+i
@@ -37,8 +37,8 @@ public class Main {
             Song songL = new Song(
                     "Cancion " + i ,
                     i,
-                    1970 + i,
-                    180,
+                    1970 + i - 25,
+                    180 +3*i,
                     "Popular",
                     "../img/cover_"+i,
                     "Esta es la canción número "+i
