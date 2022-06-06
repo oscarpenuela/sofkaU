@@ -1,17 +1,17 @@
 package com.company.Entity;
 
-import java.util.Date;
-
 public class Song {
+
     private String title;
     private int id;
-    private Date date;
+    private int date;
     private int time;
     private String genre;
     private String cover;
     private String description;
 
-    public Song(String title, int id, Date date, int time, String genre, String cover, String description)
+
+    public Song(String title, int id, int date, int time, String genre, String cover, String description)
     {
         this.title = title;
         this.id = id;
@@ -38,11 +38,11 @@ public class Song {
         this.id = id;
     }
 
-    public Date getDate() {
+    public int getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(int date) {
         this.date = date;
     }
 
